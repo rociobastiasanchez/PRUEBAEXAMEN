@@ -1,0 +1,56 @@
+html, body { 
+    height: 100%; width: 100%; margin: 0; 
+  } 
+  body{
+    background-color:white; overflow:hidden; 
+    font-family: "Trebuchet MS"; 
+  }
+   #map {
+   margin: 5px;
+    border:solid 4px #224a54;
+    -moz-border-radius: 4px;
+    
+  }
+  #map_root{
+    width: 100% !important;
+    height: 100% !important;
+  }
+  #header {
+    background-color: rgb(155, 233, 243) ;
+    margin: 2px;
+    border: solid 4px #224a54;
+    color: black; font-size:18pt; 
+    text-align:left; font-weight:bold; height:70px;
+  }
+  #subheader {
+    font-size:small;
+    color: black;
+    padding-left:20px;
+  }
+  #rightPane{
+    background-color:white;
+    color:#3f3f3f;
+    border: solid 2px #224a54;
+    width:20%;
+  }
+  #leftPane{
+    margin: 5px;
+    padding:2px;
+    background-color:white;
+    color:#3f3f3f;
+    border: solid 2px #224a54;
+    width:22%;
+ }
+
+ #mapa {
+     border: solid 2px #224a54 ;
+     margin: 5px;
+ }
+
+  .dijitTabInnerDiv{
+    background-color:#ecefe4;
+  }
+  
+  #tabs{
+    padding:5px;
+  }
