@@ -79,7 +79,7 @@ require ([
        console.log(evt);
     
         var parametros = new ServiceAreaParameters();
-        parametros.defaultBreaks= [1];
+        parametros.defaultBreaks= [3];
         parametros.outSpatialReference = madrid.spatialReference;
         parametros.returnFacilities = true;
         parametros.facilities = evt.features[0];
